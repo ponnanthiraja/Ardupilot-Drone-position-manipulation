@@ -39,6 +39,7 @@ pip install numpy matplotlib pymavlink geographiclib
 3. The script estimates the drone’s velocity and acceleration.
 4. Using this data, it predicts the future trajectory.
 5. The real-time graph updates with the current position, predicted trajectory, and traveled path.
+6. 
 
 ## Tracking Algorithm
 The algorithm divides the drone's movement into different zones:
@@ -76,7 +77,11 @@ The algorithm divides the drone's movement into different zones:
 - `velocity` and `acceleration` calculations: Uses IMU data for precise motion estimation.
 - `future_positions`: Predicts drone trajectory over a time horizon.
 - Real-time visualization with Matplotlib.
+### Video Demonstrations
+- [Trajectory Formation & Tracking Video](https://youtu.be/TeVu1U0RcAI?si=EyHuwn_iCM-fspt4)
+- [Trajectory Prediction Video](https://youtu.be/ktuHP_TYUwY?si=OkhxlZJ9WTY2YXLt)
 
+Trajectory Prediction Video 
 ## Exit
 Press `Ctrl+C` to safely exit the program.
 
